@@ -4,11 +4,13 @@ A Data Science project about model building for DSC80 at UCSD.
 
 **Authors:** Catherine Back, Lorenzo Ramos
 
+[Exploratory Data Anaylysis](https://ramosrenzo.github.io/Recipes-Research/)
+
 ---
 
 ## Framing the Problem
 
-Test
+
 
 ---
 
