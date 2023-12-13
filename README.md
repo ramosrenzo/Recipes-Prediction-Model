@@ -19,10 +19,8 @@ We plan on building a regression model to predict the amount of calories a recip
 
 ---
 
-<iframe src="assets/sns_heatmap.html" width=800 height=600 frameBorder=0></iframe>
-
 ## Baseline Model
-For our baseline model, we intend to use 2 features, `n_steps` and `n_ingredients`, which are both ordinal discrete variables.  We are using these two features because in our heatmap, it was two of the variables that didn’t have a negative correlation with `calories`.
+For our baseline model, we intend to use 2 features, `n_steps` and `n_ingredients`, which are both ordinal discrete variables.  We are using these two features because in our heatmap, these two variables didn’t have a negative correlation with `calories`.
 
 **Quantitative Features:** `n_steps`, `n_ingredients`
 
