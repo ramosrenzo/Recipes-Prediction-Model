@@ -28,10 +28,10 @@ For our baseline model, we intend to use 2 features, `n_steps` and `n_ingredient
 
 **Performance:** 
 
-| Metric   |    Value |
-|:---------|---------:|
-| R²       | 0.994159 |
-| RMSE     | 6.85192  |
+| Metric   |      Value |
+|:---------|-----------:|
+| R²       |  0.0399379 |
+| RMSE     | 24.5335    |
 
 ## Final Model
 
