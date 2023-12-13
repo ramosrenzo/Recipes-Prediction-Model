@@ -28,6 +28,11 @@ For our baseline model, we intend to use 2 features, `n_steps` and `n_ingredient
 
 **Performance:** 
 
+| Metric   |    Value |
+|:---------|---------:|
+| R²       | 0.994159 |
+| RMSE     | 6.85192  |
+
 ## Final Model
 
 > New Features Added
@@ -35,6 +40,11 @@ For our baseline model, we intend to use 2 features, `n_steps` and `n_ingredient
 **Quantitative Variable(s):** `minutes`, `total_fat (PDV)`, `sugar (PDV)`, `sodium (PDV)`, `protein (PDV)`, `saturated_fat (PDV)`, `carbohydrates (PDV)`
 
 All of the features we are adding are all quantitative variables.  The reason we decided to add these features is because looking back on our heatmap, `minutes` doesn’t have a negative correlation and the nutritional labels have fairly good correlation with `calories`.
+
+| Metric   |    Value |
+|:---------|---------:|
+| R²       | 0.994145 |
+| RMSE     | 6.85602  |
 
 ---
 
