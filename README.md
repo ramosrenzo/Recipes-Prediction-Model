@@ -19,6 +19,8 @@ We plan on building a regression model to predict the amount of calories a recip
 
 ---
 
+<iframe src="assets/seaborn_heatmap.html" width=800 height=600 frameBorder=0></iframe>
+
 ## Baseline Model
 For our baseline model, we intend to use 2 features, `n_steps` and `n_ingredients`, which are both ordinal discrete variables.  We are using these two features because in our heatmap, it was two of the variables that didn’t have a negative correlation with `calories`.
 
