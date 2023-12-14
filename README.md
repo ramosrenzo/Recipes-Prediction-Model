@@ -93,4 +93,4 @@ In the dataset of recipes, we split the recipes based on the amount of calories 
 
 **Observed Test Statistic:** 0.0256
 
-**Method:** We performed a permutation test 1000 times. With a significance level of 0.05, we fail to reject the null hypotheses. This suggests that there might be a similar estimation in both recipes that are low and high in calories. 
+**Method:** We performed a permutation test 1000 times. With a calculated **p-value** of 1.0 and significance level of 0.05, we fail to reject the null hypotheses. This suggests that there might be a similar estimation in both recipes that are low and high in calories. 
