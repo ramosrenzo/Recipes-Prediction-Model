@@ -71,7 +71,7 @@ And through the use of GridSearch we found that the best parameters were:
 }
 ```
 
-**Performance:** After applying the hyperparameters that were the best according to  GridSearch, our model's performance increased from an R<sup>2</sup> of 0.0399 to an R<sup>2</sup> of 0.9942. Our RMSE also improved from 24.5335 to 6.85328.  This improvement is attributed to many factors that were applied to our final model such as the addition of many columns from the nutritional facts and the different transformations applied. This model also improved due to GridSearch finding the best hyperparameters for our model.  Below we have a table for our metrics and visualization our final model's predicted calories vs actual calories performance.
+**Performance:** After applying the hyperparameters that were the best according to  GridSearch, our model's performance increased from an R<sup>2</sup> of 0.0399 to an R<sup>2</sup> of 0.9942. Our RMSE also improved from 24.5335 to 6.8533.  This improvement is attributed to many factors that were applied to our final model such as the addition of many columns from the nutritional facts and the different transformations applied. This model also improved due to GridSearch finding the best hyperparameters for our model.  Below we have a table for our metrics and visualization our final model's predicted calories vs actual calories performance.
 
 | Metric   |    Value |
 |:---------|---------:|
@@ -93,4 +93,4 @@ In the dataset of recipes, we split the recipes based on the amount of calories 
 
 **Observed Test Statistic:** 0.0256
 
-**Method:** We performed a permutation test 500 times. With a calculated **p-value** of 1.0 and a **significance level** of 0.05, we fail to reject the null hypothesis.
+**Method & Conclusion:** We performed a permutation test 500 times. With a calculated **p-value** of 1.0 and a **significance level** of 0.05, we fail to reject the null hypothesis.  Therefore, this **suggests** that there might be a similar estimation in both recipes that are low and high in calories.
