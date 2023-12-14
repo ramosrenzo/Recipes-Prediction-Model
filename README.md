@@ -1,4 +1,4 @@
-# Building a Ratings Prediction Model
+# Building a Calories Prediction Model
 
 A Data Science project about model building for DSC80 at UCSD.
 
